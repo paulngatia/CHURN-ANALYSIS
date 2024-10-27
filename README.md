@@ -43,7 +43,7 @@ The results would help guide the company to improve customer relations, and enab
 
 In this section, I am going to evaluate the results from the models using recall. This is because for a churn problem, the SyriaTel company would benefit more from mitigating False Negatives and increase False Positives. This reduces the chances of labelling a customer who is likely to churn as one who will not churn.
 
-![Models Evaluation](image-4.png)
+![Models evaluation](<Screenshot 2024-10-27 215553.png>)
 
 It would be beneficial to label customers who would not churn as likely to churn in order to improve business health. From the dataframe above it is visible that the best model was the Decision Tree GridSearch model as it provided a higher recall result of 78% followed by a GridSearch with 73% and then the baseline Logistic Regression model with 66%.
 
