@@ -1,6 +1,6 @@
 # SyriaTel Communications Churn Analysis
 
-![Upfront Poster](image.png)
+![Upfront Poster](Images/image.png)
 
 #### Overview
 
@@ -31,7 +31,7 @@ For the baseline model, I am going to use logistic regression which will be used
 
 The dataset is split into trainning set and testing set and will then be resampled using Synthetic Minority Oversampling Technique to solve for imbalance of the dataset.
 
-![1684875674941](image/README/1684875674941.png)
+![Modelling](<Screenshot 2024-10-27 222759.png>)
 
 The best model in the modeling section is the Decision Tree model done using gridsearch. The recall results are the best for all the models.
 
@@ -39,15 +39,15 @@ The best model in the modeling section is the Decision Tree model done using gri
 
 The results would help guide the company to improve customer relations, and enable for the improvement and reduction of churn based on importance of features as shown below.
 
-![Final feature Importance](image-1.png)
+![Final feature Importance](Images/image-1.png)
 
 In this section, I am going to evaluate the results from the models using recall. This is because for a churn problem, the SyriaTel company would benefit more from mitigating False Negatives and increase False Positives. This reduces the chances of labelling a customer who is likely to churn as one who will not churn.
 
-![Models evaluation](<Screenshot 2024-10-27 215553.png>)
+![Models evaluation](<Images/Screenshot 2024-10-27 215553 copy.png>)
 
 It would be beneficial to label customers who would not churn as likely to churn in order to improve business health. From the dataframe above it is visible that the best model was the Decision Tree GridSearch model as it provided a higher recall result of 71% followed by a baseline Logistic Regression model with 63% and then Decision Tree model 58%.
 
-![ROC Curve Analysis](image-2.png)
+![ROC Curve Analysis](Images/image-2.png)
 
 #### Conclusion
 
