@@ -45,7 +45,7 @@ In this section, I am going to evaluate the results from the models using recall
 
 ![Models evaluation](<Screenshot 2024-10-27 215553.png>)
 
-It would be beneficial to label customers who would not churn as likely to churn in order to improve business health. From the dataframe above it is visible that the best model was the Decision Tree GridSearch model as it provided a higher recall result of 78% followed by a GridSearch with 73% and then the baseline Logistic Regression model with 66%.
+It would be beneficial to label customers who would not churn as likely to churn in order to improve business health. From the dataframe above it is visible that the best model was the Decision Tree GridSearch model as it provided a higher recall result of 71% followed by a baseline Logistic Regression model with 63% and then Decision Tree model 58%.
 
 ![ROC Curve Analysis](image-2.png)
 
