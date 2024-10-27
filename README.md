@@ -2,6 +2,7 @@
 
 ![Upfront Poster](Images/image.png)
 
+## Author : PAUL NGATIA
 #### Overview
 
 SyriaTel is a mobile network provider in Syria. This project aims to provide insights into the determinant factors of churning as well as predict future cases of churn using different models in order to provide adequate recommendations to the company. This would in turn help to retain customers / product consumers who would otherwise churn.
