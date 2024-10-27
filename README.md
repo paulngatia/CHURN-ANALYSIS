@@ -31,7 +31,7 @@ For the baseline model, I am going to use logistic regression which will be used
 
 The dataset is split into trainning set and testing set and will then be resampled using Synthetic Minority Oversampling Technique to solve for imbalance of the dataset.
 
-![Modelling](<Screenshot 2024-10-27 222759.png>)
+![Modelling](<Images/Screenshot 2024-10-27 222759.png>)
 
 The best model in the modeling section is the Decision Tree model done using gridsearch. The recall results are the best for all the models.
 
